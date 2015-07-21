@@ -1,25 +1,27 @@
-#Git configuration
+# Git configuration
 
-##Common
+## Common
 
 ```
 $ git config --global user.name "gitusername"
 $ git config --global user.email git@email.com
 ```
-##GNU
+## GNU
 ```
 $ git config --global core.autocrlf input
 ```
-##Windows (cross-platform)
+
+## Windows (cross-platform)
 ```
 $ git config --global core.autocrlf true
 ```
-###Windows only
+
+### Windows only
 ```
 $ git config --global core.autocrlf false
 ```
 
-#Check settings
+# Check settings
 ```
 $ git config --list
 ```

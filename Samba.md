@@ -7,6 +7,8 @@ sudo  apt-get install libcups2 samba samba-common cups
 sudo smbpasswd -a <username>
 ```
 
+## share folder (with authentication)
+
 Add the following at the end of ```/etc/samba/smb.conf```
 
 ```
@@ -19,6 +21,8 @@ browsable = yes
 public = yes
 writable = yes
 ```
+
+## share folder (without authentication & write permissions)
 
 to make a folder 100% public:
 
@@ -37,7 +41,7 @@ chmod -R 777 /home/public
 ```
 
 
-
+## test 
 
 
 ```

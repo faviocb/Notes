@@ -20,6 +20,26 @@ public = yes
 writable = yes
 ```
 
+to make a folder 100% public:
+
+```
+mkdir /home/public
+chmod -R 777 /home/public
+```
+
+```
+[public]
+    path = /home/public
+    public = yes
+    guest ok = yes
+    writable = yes
+    printable = no
+```
+
+
+
+
+
 ```
 sudo apt-get install cifs-utils
 ```
@@ -51,4 +71,4 @@ password: <password>
 ### Source
 
 https://www.howtoforge.com/tutorial/debian-samba-server/
-
+http://linux.alanstudio.hk/samba_public.htm

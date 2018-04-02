@@ -39,7 +39,7 @@ host       all             <postgresql-username>   0.0.0.0/0   password
 
 * This might be insecure, because it allows all addresses to authenticate.
 
-### Postgreqsl connection from remote SSH
+### Postgreqsl connection from remote client
 
 ```
 psql  -h <postgresq-server> -U <postgreqsl-username> -d <database-name>

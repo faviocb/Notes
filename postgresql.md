@@ -31,7 +31,7 @@ listen_addresses = '*'
 
 ### Allow remote clients authenticate with password in server
 
-Add following line as first record of  /etc/postgresql/9.6/main/pg_hba.conf
+Add following line as second record of  /etc/postgresql/9.6/main/pg_hba.conf
 
 ```
 host       all             <postgresql-username>   0.0.0.0/0   password

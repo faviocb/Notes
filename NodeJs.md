@@ -14,6 +14,15 @@ Update npm:
 $ npm install npm -g
 ```
 
+## Debian testing (Buster)
+
+Install npm
+```
+sudo apt-get install npm
+sudo npm install -g npm@next
+```
+
+
 ### Source
 https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
-
+https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions

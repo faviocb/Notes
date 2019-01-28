@@ -1,0 +1,8 @@
+C-s pause    output only?
+C-q resume
+
+C-m RETURN
+
+C-d logout
+
+C-c cancel?

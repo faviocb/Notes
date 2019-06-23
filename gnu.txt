@@ -1,3 +1,5 @@
+DELETE, BREAK		stop??
+
 C-s pause    output only?
 C-q resume
 
